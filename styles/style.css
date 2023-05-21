@@ -1,20 +1,21 @@
 @font-face {
-    font-family: "panthera";
-    src: url("../fonts/pantheraregular-mvz9j-webfont.woff2") format("woff2"),
-        url("../fonts/pantheraregular-mvz9j-webfont.woff") format("woff");
+    font-family: "Panthera";
+    src: url("../fonts/Panthera.woff2") format("woff2"),
+        url("../fonts/Panthera.woff") format("woff");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: "beyno";
+    font-family: "Beyno";
     font-style: normal;
     font-weight: normal;
     src: url("../fonts/BEYNO.woff") format("woff");
 }
 
 @font-face {
-    font-family: "wakanda4";
+    font-family: "Wakanda4";
     src: url("../fonts/wakandaforever-regular-webfont.woff2") format("woff2"),
         url("../fonts/pantheraregular-mvz9j-webfont.woff") format("woff");
     font-weight: normal;
@@ -28,20 +29,43 @@
     src: url("../fonts/Cantarell-Regular.woff") format("woff");
 }
 
-html {
+body {
     background: url(../Illustrations-Logo/All-pages/arrière_plan.png);
-    background-repeat: no-repeat;
     color: white;
 }
 
+h1 {
+    font-family: "Panthera";
+}
+
+h2 {
+    font-family: "Beyno";
+}
+
+h3 {
+    font-family: "Canta";
+}
+
+p {
+    font-family: "Canta";
+    font-size: 14px;
+}
+
 nav {
+    position: relative;
+    top: 2rem;
+    width: 80%;
     height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: "beyno";
 }
 
+nav p {
+    font-family: "Beyno";
+}
 .logos-nav {
     display: flex;
     flex-direction: row;
@@ -50,15 +74,33 @@ nav {
 .logos-nav a {
     text-decoration: none;
     color: white;
-    font-family: ;
 }
 
 .container-header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* .container-panther1 {
+
+} */
+
+.container-in-panther1 {
+    position: relative;
+    top: 10rem;
+}
+
+/* .image-panther1 {
+} */
+
 .the-prince {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
 }
@@ -72,13 +114,118 @@ nav {
     font-family: "Canta";
 }
 
+#form {
+    background-image: url(../Illustrations-Logo/Accueil/Pantherhome7.png);
+    /* width: 100%; */
+    height: 50rem;
+    background-size: cover;
+}
+
 .container-form {
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    background-image: url(../Illustrations-Logo/Accueil/Pantherhome7.png);
+    height: 100%;
+}
+
+.the-form {
+    position: relative;
+    width: 60%;
+    height: 38rem;
+    padding-top: 2rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        0.5turn,
+        rgb(255, 255, 255),
+        rgb(255, 255, 255, 0.2)
+    );
+    color: black;
+    border-radius: 8rem;
+    text-align: center;
+    /* justify-content: space-around; */
+}
+
+.container-in-form {
+    display: flex;
+    flex-direction: column;
+    height: 27.5rem;
+    justify-content: space-between;
+}
+
+#email,
+#nom,
+#message {
+    position: relative;
+    width: 520px;
+    height: 56px;
+    border-radius: 38rem;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    padding-left: 2rem;
+    top: 50%;
+}
+
+#submit {
+    background-color: white;
+    border-radius: 38rem;
+    width: 174px;
+    height: 54px;
 }
 
 footer {
+    position: relative;
     background: url(../Illustrations-Logo/All-pages/back_footer.png);
+    background-size: cover;
+    color: white;
+    top: 5rem;
+}
+
+.container-footer {
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-in-footer {
+    position: relative;
+    /* top: 5rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .marvel-logo-circle {
+    
+} */
+
+.circle {
+    text-align: center;
+}
+
+.logo-cross {
+    position: relative;
+    text-align: center;
+    top: -50%;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-and-social {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-logo {
+    display: flex;
+    flex-direction: row;
 }
