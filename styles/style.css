@@ -53,6 +53,32 @@ nav {
     font-family: ;
 }
 
+.container-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.the-prince {
+    display: flex;
+    flex-direction: row;
+}
+
+.tchalla {
+    color: black;
+    background-color: white;
+}
+
 .cin {
     font-family: "Canta";
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-image: url(../Illustrations-Logo/Accueil/Pantherhome7.png);
+}
+
+footer {
+    background: url(../Illustrations-Logo/All-pages/back_footer.png);
 }
