@@ -1,6 +1,5 @@
-/* ACCUEIL AND ALL PAGES */
-
-@font-face {
+/* IMPORT FONTS */
+font-face {
     font-family: "Panthera";
     src: url("../fonts/Panthera.woff2") format("woff2"),
         url("../fonts/Panthera.woff") format("woff");
@@ -31,6 +30,7 @@
     src: url("../fonts/Cantarell-Regular.woff") format("woff");
 }
 
+/* GENERAL RULES */
 body {
     background: url(../Illustrations-Logo/All-pages/arrière_plan.png);
     color: white;
@@ -53,6 +53,7 @@ p {
     font-size: 14px;
 }
 
+/* NAV BAR */
 nav {
     position: relative;
     top: 2rem;
@@ -87,123 +88,13 @@ nav p {
     margin-right: auto;
 }
 
-/* .container-panther1 {
+/* HEADER SECTION */
 
-} */
-
-.container-in-panther1 {
-    position: relative;
-    top: 10rem;
+.image-dora-milaje {
+    opacity: 50%;
 }
 
-/* .image-panther1 {
-} */
-
-.the-prince {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-.panther3 {
-    position: relative;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    z-index: 2;
-}
-
-.image-panther3 {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 2;
-}
-
-.tchalla {
-    position: relative;
-    top: -10rem;
-    color: black;
-    background-color: white;
-    width: 80%;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 0.8rem;
-    z-index: 1;
-}
-
-.cin {
-    font-family: "Canta";
-}
-
-#form {
-    background-image: url(../Illustrations-Logo/Accueil/Pantherhome7.png);
-    /* width: 100%; */
-    height: 50rem;
-    background-size: cover;
-}
-
-.container-form {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.the-form {
-    position: relative;
-    width: 60%;
-    height: 38rem;
-    padding-top: 2rem;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-top: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(
-        0.5turn,
-        rgb(255, 255, 255),
-        rgb(255, 255, 255, 0.2)
-    );
-    color: black;
-    border-radius: 8rem;
-    text-align: center;
-    /* justify-content: space-around; */
-}
-
-.container-in-form {
-    display: flex;
-    flex-direction: column;
-    height: 27.5rem;
-    justify-content: space-between;
-}
-
-#email,
-#nom,
-#message {
-    position: relative;
-    width: 520px;
-    height: 56px;
-    border-radius: 38rem;
-    border-color: white;
-    background-color: transparent;
-    color: white;
-    padding-left: 2rem;
-    top: 50%;
-}
-
-#submit {
-    background-color: white;
-    border-radius: 38rem;
-    width: 174px;
-    height: 54px;
-}
-
+/* FOOTER SECTION */
 footer {
     position: relative;
     background: url(../Illustrations-Logo/All-pages/back_footer.png);
@@ -323,7 +214,3 @@ footer {
 .copyright p {
     font-size: 10px;
 }
-
-/* ENIGME PAGE */
-
-/* WAKANDA PAGE */
