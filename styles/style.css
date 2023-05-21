@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "panthera";
+    src: url("../fonts/pantheraregular-mvz9j-webfont.woff2") format("woff2"),
+        url("../fonts/pantheraregular-mvz9j-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "beyno";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/BEYNO.woff") format("woff");
+}
+
+@font-face {
+    font-family: "wakanda4";
+    src: url("../fonts/wakandaforever-regular-webfont.woff2") format("woff2"),
+        url("../fonts/pantheraregular-mvz9j-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Canta";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Cantarell-Regular.woff") format("woff");
+}
+
+html {
+    background: url(../Illustrations-Logo/All-pages/arrière_plan.png);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+nav {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "beyno";
+}
+
+.logos-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logos-nav a {
+    text-decoration: none;
+    color: white;
+    font-family: ;
+}
+
+.cin {
+    font-family: "Canta";
+}
