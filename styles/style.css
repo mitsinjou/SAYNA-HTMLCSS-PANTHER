@@ -1,5 +1,9 @@
 /* ACCUEIL AND ALL PAGES */
 
+/* GENERAL RULES  */
+
+/* IMPORT FONTS */
+
 @font-face {
     font-family: "Panthera";
     src: url("../fonts/Panthera.woff2") format("woff2"),
@@ -31,6 +35,8 @@
     src: url("../fonts/Cantarell-Regular.woff") format("woff");
 }
 
+/* PAGE RULES */
+
 body {
     background: url(../Illustrations-Logo/All-pages/arrière_plan.png);
     color: white;
@@ -38,10 +44,12 @@ body {
 
 h1 {
     font-family: "Panthera";
+    color: #9e91b7;
 }
 
 h2 {
     font-family: "Beyno";
+    color: #9e91b7;
 }
 
 h3 {
@@ -53,6 +61,73 @@ p {
     font-size: 14px;
     text-align: justify;
 }
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #3d2da6;
+    color: #f2cef2;
+}
+
+/* PLACEHOLDER COLOR IN FORM */
+::placeholder {
+    color: #021740;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #021740;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #021740;
+}
+
+/* SIDE NAVIGATION */
+
+.social-header {
+    position: absolute;
+    left: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.the-horiz-one {
+    border-left: 0.2rem solid;
+    border-color: #9e91b7;
+    height: 30rem;
+}
+
+.horiz-two-and-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.the-horiz-two {
+    position: relative;
+    left: 1.1rem;
+    border-left: 0.2rem solid;
+    border-color: #9e91b7;
+    height: 20rem;
+}
+
+.social-in-header {
+    position: relative;
+    left: 0.5rem;
+    height: 10rem;
+}
+
+.logo-social-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+/* HEADER */
 
 nav {
     position: relative;
@@ -70,35 +145,42 @@ nav p {
     font-family: "Beyno";
 }
 .logos-nav {
+    width: 15rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .logos-nav a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 .container-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
+    justify-content: space-around;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* .container-panther1 {
-
-} */
+.container-in-header {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    /* justify-content: space-around; */
+}
 
 .container-in-panther1 {
     position: relative;
     top: 10rem;
+    padding-left: 1rem;
 }
 
-/* .image-panther1 {
-} */
+/* SLIDER SECTION */
 
 .container-all-carroussel {
     position: relative;
@@ -139,6 +221,8 @@ nav p {
     font-size: 12px;
 }
 
+/* TCHALLA SECTION */
+
 .the-prince {
     position: relative;
     top: 8rem;
@@ -151,6 +235,10 @@ nav p {
 
 .articles {
     padding-inline: 2rem;
+}
+
+.articles p {
+    color: #f2cef2;
 }
 
 .cards {
@@ -190,9 +278,27 @@ nav p {
     z-index: 1;
 }
 
+.tchalla h3 {
+    text-align: center;
+}
+
+.tchalla p {
+    color: #021740;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .cin {
+    position: relative;
+    top: 1rem;
     font-family: "Canta";
 }
+
+/* FORM SECTION */
 
 #form {
     position: relative;
@@ -211,9 +317,9 @@ nav p {
 
 .the-form {
     position: relative;
-    width: 60%;
+    width: 70%;
     height: 38rem;
-    padding-top: 2rem;
+    /* padding-top: 1rem; */
     margin-bottom: auto;
     margin-left: auto;
     margin-top: auto;
@@ -228,14 +334,7 @@ nav p {
     color: black;
     border-radius: 8rem;
     text-align: center;
-    /* justify-content: space-around; */
-}
-
-.container-in-form {
-    display: flex;
-    flex-direction: column;
-    height: 27.5rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .the-form p {
@@ -246,26 +345,61 @@ nav p {
     font-size: 1.5rem;
 }
 
-#email,
-#nom,
-#message {
+.container-in-form {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.div-nom,
+.div-email,
+.textarea {
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
     position: relative;
     width: 520px;
-    height: 56px;
-    border-radius: 38rem;
-    border-color: white;
+    height: 50px;
+    border: 1px solid #021740;
+    border-radius: 30rem;
     background-color: transparent;
-    color: white;
+    padding-left: 2rem;
+    top: 50%;
+}
+
+input[type="email"] {
+    position: relative;
+    width: 520px;
+    height: 50px;
+    border: 1px solid #021740;
+    border-radius: 30rem;
+    background-color: transparent;
+    padding-left: 2rem;
+    top: 50%;
+}
+
+textarea {
+    position: relative;
+    position: relative;
+    width: 520px;
+    height: 180px;
+    border: 1px solid #021740;
+    border-radius: 2rem;
+    background-color: transparent;
     padding-left: 2rem;
     top: 50%;
 }
 
 #submit {
     background-color: white;
+    margin-bottom: 1.5rem;
     border-radius: 38rem;
     width: 174px;
     height: 54px;
 }
+
+/* FOOTER SECTION */
 
 footer {
     position: relative;
