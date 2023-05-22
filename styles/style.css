@@ -40,6 +40,8 @@
 body {
     background: url(../Illustrations-Logo/All-pages/arrière_plan.png);
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -144,6 +146,7 @@ nav {
 nav p {
     font-family: "Beyno";
 }
+
 .logos-nav {
     width: 15rem;
     display: flex;
@@ -339,10 +342,12 @@ nav p {
 
 .the-form p {
     text-align: center;
+    color: #021740;
+    font-size: 1rem;
 }
 
 .the-form h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .container-in-form {
@@ -392,12 +397,22 @@ textarea {
 }
 
 #submit {
-    background-color: white;
+    background-color: #f2cef2;
+    color: #021740;
+    border: none;
     margin-bottom: 1.5rem;
     border-radius: 38rem;
     width: 174px;
     height: 54px;
 }
+
+#submit:hover {
+    filter: drop-shadow(0px 0px 20px #021740);
+}
+
+/* #submit:hover{
+
+} */
 
 /* FOOTER SECTION */
 

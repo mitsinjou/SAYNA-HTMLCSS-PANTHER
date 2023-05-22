@@ -33,11 +33,15 @@ font-face {
 /* GENERAL RULES */
 body {
     background: url(../Illustrations-Logo/All-pages/arrière_plan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
 h1 {
-    font-family: "Panthera";
+    font-family: "Beyno";
+    letter-spacing: 0.6rem;
+    color: #9e91b7;
 }
 
 h2 {
@@ -52,6 +56,8 @@ p {
     font-family: "Canta";
     font-size: 14px;
 }
+
+/* HEADER SECTION */
 
 /* NAV BAR */
 nav {
@@ -69,32 +75,148 @@ nav {
 nav p {
     font-family: "Beyno";
 }
+
 .logos-nav {
+    width: 15rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .logos-nav a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 .container-header {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-dora-milaje {
+    z-index: 1;
+}
+
+.image-dora-milaje {
+    opacity: 50%;
+    min-width: 2rem;
+    max-width: 100%;
+}
+
+.container-right-header {
+    position: relative;
+    top: 3rem;
+    left: -2rem;
+    z-index: 2;
+}
+
+.container-defi {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.defi-title {
+    width: 34rem;
+}
+.container-in-defi-text {
+    position: relative;
+}
+
+#shape1 {
+    position: relative;
+}
+
+.defi-text {
+    position: relative;
+    width: 90%;
+    top: -15rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+
+.defi-text p {
+    font-size: 0.7rem;
+}
+
+/* MAIN SECTION */
+
+main h2 {
+    font-family: "Wakanda4";
+}
+
+.container-all-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-columns-main {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-in-left {
+    position: relative;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* HEADER SECTION */
+.container-in-right {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
 
-.image-dora-milaje {
-    opacity: 50%;
+.title-main {
+    width: fit-content;
+}
+
+.main-right {
+    position: relative;
+}
+
+.tip {
+    position: relative;
+    border: 1px solid;
+}
+
+#shape2 {
+    position: relative;
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tip-text {
+    position: absolute;
+    width: 28rem;
+    top: 35%;
+    left: 15%;
+
+    text-align: center;
+}
+
+.tip-text p {
+    font-size: 12px;
 }
 
 /* FOOTER SECTION */
+
 footer {
     position: relative;
     background: url(../Illustrations-Logo/All-pages/back_footer.png);
