@@ -1,8 +1,10 @@
 /* ACCUEIL AND ALL PAGES */
 
-/* GENERAL RULES  */
+/* Styles I use for almost all pages */
 
-/* IMPORT FONTS */
+/* FOR GENERAL RULES  */
+
+/* IMPORTING FONTS */
 
 @font-face {
     font-family: "Panthera";
@@ -35,9 +37,10 @@
     src: url("../fonts/Cantarell-Regular.woff") format("woff");
 }
 
-/* PAGE RULES */
+/* FOR PAGE RULES */
 
 body {
+    margin: 0%;
     background: url(../Illustrations-Logo/All-pages/arrière_plan.png);
     color: white;
     background-repeat: no-repeat;
@@ -72,7 +75,7 @@ button {
     color: #f2cef2;
 }
 
-/* PLACEHOLDER COLOR IN FORM */
+/* FOR PLACEHOLDER COLOR IN FORM */
 ::placeholder {
     color: #021740;
     opacity: 1; /* Firefox */
@@ -88,7 +91,7 @@ button {
     color: #021740;
 }
 
-/* SIDE NAVIGATION */
+/* START SIDE NAVIGATION */
 
 .social-header {
     position: absolute;
@@ -129,7 +132,11 @@ button {
     height: 100%;
 }
 
+/* END SIDE NAVIGATION */
+
 /* HEADER */
+
+/* START NAV BAR */
 
 nav {
     position: relative;
@@ -161,6 +168,10 @@ nav p {
     font-size: 3rem;
 }
 
+/* END NAV BAR */
+
+/* START CONTAINER HEADER */
+
 .container-header {
     display: flex;
     flex-direction: row;
@@ -182,6 +193,10 @@ nav p {
     top: 10rem;
     padding-left: 1rem;
 }
+
+/* END CONTAINER HEADER */
+
+/* END HEADER SECTION */
 
 /* SLIDER SECTION */
 
@@ -224,6 +239,8 @@ nav p {
     font-size: 12px;
 }
 
+/* END SLIDER SECTION */
+
 /* TCHALLA SECTION */
 
 .the-prince {
@@ -236,6 +253,8 @@ nav p {
     flex-direction: row;
 }
 
+/* START TCHALLA LEFT */
+
 .articles {
     padding-inline: 2rem;
 }
@@ -243,6 +262,10 @@ nav p {
 .articles p {
     color: #f2cef2;
 }
+
+/* END TCHALLA LEFT */
+
+/* START THCALLA RIGHT */
 
 .cards {
     display: flex;
@@ -301,7 +324,11 @@ nav p {
     font-family: "Canta";
 }
 
-/* FORM SECTION */
+/* END TCHALLA RIGHT */
+
+/* END TCHALLA SECTION */
+
+/* START FORM SECTION */
 
 #form {
     position: relative;
@@ -414,7 +441,9 @@ textarea {
 
 } */
 
-/* FOOTER SECTION */
+/* END FORM SECTION */
+
+/* START FOOTER SECTION */
 
 footer {
     position: relative;
@@ -536,6 +565,4 @@ footer {
     font-size: 10px;
 }
 
-/* ENIGME PAGE */
-
-/* WAKANDA PAGE */
+/* END FOOTER SECTION */

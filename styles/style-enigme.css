@@ -1,4 +1,4 @@
-/* IMPORT FONTS */
+/* IMPORTING FONTS */
 font-face {
     font-family: "Panthera";
     src: url("../fonts/Panthera.woff2") format("woff2"),
@@ -30,8 +30,9 @@ font-face {
     src: url("../fonts/Cantarell-Regular.woff") format("woff");
 }
 
-/* GENERAL RULES */
+/* FOR GENERAL RULES */
 body {
+    margin: 0%;
     background: url(../Illustrations-Logo/All-pages/arrière_plan.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +60,7 @@ p {
     font-size: 14px;
 }
 
-/* PLACEHOLDER COLOR IN FORM */
+/* FOR PLACEHOLDER COLOR IN FORM */
 ::placeholder {
     color: #9e91b7;
     opacity: 1; /* Firefox */
@@ -107,6 +108,10 @@ nav p {
     font-weight: bold;
     font-size: 3rem;
 }
+
+/* END NAV BAR */
+
+/* START CONTAINER HEADER */
 
 .container-header {
     display: flex;
@@ -165,6 +170,10 @@ nav p {
 .defi-text p {
     font-size: 0.7rem;
 }
+
+/* END CONTAINER HEADER */
+
+/* END HEADER SECTION */
 
 /* MAIN SECTION */
 
