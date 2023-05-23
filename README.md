@@ -12,4 +12,8 @@ The website is a cool project presenting yhe universe of the film "Black Panther
 
 ## MY-TO-DO-LIST
 
-![LOVE](http://ForTheBadge.com/images/badges/built-with-love.svg)
+-   The responsive (media querry /modern CSS)
+-   The links: the targets (especially for the social media links)
+-   CSS Animations (hover )
+
+    ![LOVE](http://ForTheBadge.com/images/badges/built-with-love.svg)
