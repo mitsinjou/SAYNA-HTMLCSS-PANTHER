@@ -169,8 +169,8 @@ nav p {
 /* MAIN SECTION */
 
 main {
-    position: relative;
     top: 3rem;
+    padding-bottom: 5rem;
 }
 
 main h2 {
@@ -199,12 +199,16 @@ main h2 {
 
 .container-columns-main {
     position: relative;
-    top: 2rem;
+    /* top: 2rem; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+}
+
+.main-left {
+    height: 35rem;
 }
 
 .container-in-left {
@@ -213,16 +217,36 @@ main h2 {
     flex-direction: column;
     justify-content: space-around;
     width: 60%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
+.form {
+    margin-top: 5rem;
+    height: 100%;
+    text-align: center;
+}
+
+.container-in-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .article1 h3 {
     font-size: 14px;
+    height: 2rem;
 }
 
 .form h3 {
     font-size: 14px;
+    text-align: left;
+}
+
+.the-input {
+    margin-bottom: 3rem;
 }
 
 input[type="text"] {
@@ -234,7 +258,14 @@ input[type="text"] {
     background-color: transparent;
     padding-left: 2rem;
     top: 50%;
+    color: #9e91b7;
 }
+
+/* #the-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+} */
 
 #submit {
     background-color: #f2cef2;
@@ -296,11 +327,9 @@ input[type="text"] {
 /* FOOTER SECTION */
 
 footer {
-    position: relative;
     background: url(../Illustrations-Logo/All-pages/back_footer.png);
     background-size: cover;
     color: #f2cef2;
-    top: 5rem;
 }
 
 .container-footer {

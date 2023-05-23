@@ -142,31 +142,34 @@
 
                             <!-- START THE FORM -->
                             <div class="form">
-                                <h3>Alors, as tu la réponse ?</h3>
-                                <form
-                                    action="https://httpbin.org/get"
-                                    method="get"
-                                >
-                                    <div class="the-input">
-                                        <label for="answer"></label>
-                                        <input
-                                            type="text"
-                                            name="answer"
-                                            id="answer"
-                                            placeholder="Réponse"
-                                            required
-                                        />
-                                    </div>
-                                    <div class="submit">
-                                        <input
-                                            id="submit"
-                                            type="submit"
-                                            value="ENVOYER"
-                                        />
-                                    </div>
-                                </form>
+                                <div class="container-in-form">
+                                    <h3>Alors, as tu la réponse ?</h3>
+                                    <form
+                                        id="the-form"
+                                        action="https://httpbin.org/get"
+                                        method="get"
+                                    >
+                                        <div class="the-input">
+                                            <label for="answer"></label>
+                                            <input
+                                                type="text"
+                                                name="answer"
+                                                id="answer"
+                                                placeholder="Réponse"
+                                                required
+                                            />
+                                        </div>
+                                        <div class="submit">
+                                            <input
+                                                id="submit"
+                                                type="submit"
+                                                value="ENVOYER"
+                                            />
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- END THE FORM -->
                             </div>
-                            <!-- END THE FORM -->
                         </div>
                     </div>
                     <!-- END MAIN LEFT -->
